@@ -121,6 +121,13 @@ req_ping = {
     "requestId": "<requestId>"
 }
 
+req_traceroute = {
+    "action": "traceroute",
+    "tracerouteCode": 1,
+    "host": "<host domain name or IP address>",
+    "requestId": "<requestId>"
+}
+
 req_topology = {
     "action": "topology",
     "requestId": "<requestId>"
@@ -135,5 +142,6 @@ req_addNewNode = {
 
 req_syncONTConfig = {
     "action": "syncONTConfig",
-    "requestId": "<requestId>"
+    "requestId": "<requestId>",
+    "enableSync": False
 }
